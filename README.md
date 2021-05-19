@@ -9,7 +9,7 @@ dotnet test
 ```
 
 > Test Result CMD - 
-![CmdTestResults](Com.Test.AbhinavSharma\Images\CmdTestResults.png)
+![CmdTestResults](Com.Test.AbhinavSharma/Images/CmdTestResults.png)
 
 > Test Result in VS 2019 - 
 ![V S Test Results](Com.Test.AbhinavSharma/Images/VSTestResults.png)
