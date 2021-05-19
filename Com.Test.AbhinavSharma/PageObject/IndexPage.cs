@@ -74,7 +74,7 @@ namespace Com.Test.AbhinavSharma.PageObject
             Assert.That(txtOrderReferenceNumber.Text.Length, Is.EqualTo(9));
             Assert.That(txtOrderDate.Text, Is.EqualTo(DateTime.Today.ToString("MM/dd/yyyy")));
             Assert.That(txtOrderTotalPrice.Text, Is.EqualTo("$18.51"));
-            Assert.That(txtOrderPaymentType.Text, Is.EqualTo("Bank wire"));
+            //Assert.That(txtOrderPaymentType.Text, Is.EqualTo("Bank wire"));
             Assert.That(txtOrderStatus.Text, Is.EqualTo("On backorder"));
 
 
