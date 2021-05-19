@@ -8,7 +8,7 @@ dotnet test
 ```
 
 Test Result - 
-![File](CmdTestResults.png)
+![File](Com.Test.AbhinavSharma\Images\CmdTestResults.png)
 
 > Steps to run the test in Azure pipeline
 
