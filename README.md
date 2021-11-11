@@ -17,3 +17,9 @@ dotnet test
 
 ###### Sucess execution test result 
 [HERE](https://github.com/777abhi/Com.Test.AbhinavSharma/actions/runs/1448803791)
+
+###### Wordpress post  
+[HERE](https://abhinavsharmanotes.wordpress.com/2021/11/11/end-2-end-test-automation-framework-using-c-dot-net-core-with-github-actions-azure-devops-pipeline/)
+
+###### Blogspot post 
+[HERE](https://abhinavsharmanotes.blogspot.com/2021/11/end-2-end-test-automation-framework.html)
