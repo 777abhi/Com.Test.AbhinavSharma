@@ -1,6 +1,10 @@
-> Steps to run the test manually from any computer with .net core installation
+##### Pre-requisite - Install .Net core runtime or SDK and Git from below links befor proceeding with below commands-
+ - [.NET Core 3.1](https://dotnet.microsoft.com/download/dotnet/3.1)
+ - [GIT](https://git-scm.com/downloads) 
 
-1. Clone repo from https://dev.azure.com/777abhi/TestProject/_git/Com.Test.AbhinavSharma
+ ###### Steps to run the test manually from any local computer
+
+1. Clone repo from https://github.com/777abhi/Com.Test.AbhinavSharma.git
 2. Open CMD at the project location where .csproject file is located
 2. Run command below command
 
@@ -8,15 +12,8 @@
 dotnet test
 ```
 
-> Test Result CMD - 
-![CmdTestResults](Com.Test.AbhinavSharma/Images/CmdTestResults.png)
+###### GitHub Actions pipeline will run the test automatically. 
+[Pipeline Link](https://github.com/777abhi/Com.Test.AbhinavSharma/blob/main/.github/workflows/dotnet.yml)
 
-> Test Result in VS 2019 - 
-![V S Test Results](Com.Test.AbhinavSharma/Images/VSTestResults.png)
-
-> Test Results in Azure Pipeline - 
-![Azure Pipeline Test Results](Com.Test.AbhinavSharma/Images/AzurePipelineTestResults.png)
-
-View Results directly from - 
-https://dev.azure.com/777abhi/TestProject/_build/results?buildId=284&view=ms.vss-test-web.build-test-results-tab
-
+###### Sucess execution test result 
+[HERE](https://github.com/777abhi/Com.Test.AbhinavSharma/actions/runs/1448803791)
